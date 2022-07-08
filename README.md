@@ -1,2 +1,2 @@
 # dl-note
-deep learning note
+使用 Logseq 創建的深度學習筆記
