@@ -1,0 +1,14 @@
+- ## Loss #Loss
+	- 模型的估測值 $f_{\phi}(x)$ 與 $y$ 之間的誤差值
+		- 當誤差越小就代表估測結果越準確
+		- **注意**：雖然以誤差值來解說，但 loss 沒有要求為正
+			- 只要求**數值越小代表估測越好**
+	- 依據任務由各式各樣的 loss function $\mathcal{L}$ 計算
+- ## Gradient Descent
+	- $f_x(\phi)$
+	- $\mathcal{L}_{f,D}(\phi)$
+	- 為了通過梯度更新參數 $\phi$，$f_{\phi}$ 與 $\mathcal{L}$ 必須是可微
+	- $\phi\leftarrow\phi-\gamma\cfrac{\partial \mathcal{L}(f_{\phi}(x),y)}{\partial\phi}$
+	- ### Stochastic Gradient Descent
+	- ### Gradient Vanishing & Explored
+	-

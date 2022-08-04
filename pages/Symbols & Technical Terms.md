@@ -1,0 +1,6 @@
+- $\mathcal{L}$: Loss function, 損失函數
+	- 越小越好
+- $\phi$: Model parameters, 模型參數
+- $f_{\phi}$: Model, 模型
+- Learning rate, 學習率
+-

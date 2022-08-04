@@ -1,0 +1,30 @@
+- ## Survey
+	- [A Survey on Contrastive Self-supervised Learning](https://arxiv.org/abs/2011.00362), 2020
+	- **[Self-Supervised Representation Learning: Introduction, Advances and Challenges](https://arxiv.org/abs/2110.09327), 2021**
+	- [Self-Supervised Learning for Videos: A Survey](https://arxiv.org/abs/2207.00419), 2022
+	- [Survey on Self-Supervised Learning: Auxiliary Pretext Tasks and Contrastive Learning Methods in Imaging](https://www.mdpi.com/1099-4300/24/4/551), 2022
+	- [Self-Supervised Speech Representation Learning: A Review](https://arxiv.org/abs/2205.10643), 2022
+- ## 背景
+	- > 與 Semi-Supervised 相同 #Semi-Supervised
+	- 標記資料（$D$）相對稀少且成本高昂
+	- 現實世界充滿大量的未標記資料（$U$）卻難以善加利用
+- ## 特點
+	- 預訓練時無需任何 label
+	- 可以在測試環境中持續訓練 #[[Transductive Learning]]
+		- > 與 Semi-Supervised 相同 #Semi-Supervised
+	- 目標是訓練強大的 Pre-trained Feature Extraction
+- ## 主流方法
+	- Masked AutoEncoder
+		- BERT
+	- Contrastive Learning
+		- SimCLR
+		- MoCo
+		- CPC
+	- Momentum Encoder
+		- MoCo
+		- BYOL
+	- Predictor
+		- MoCo v3
+		- SimSiam
+		- DINO
+- ## Trick

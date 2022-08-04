@@ -1,0 +1,14 @@
+- **感知器**（Perceptron）
+	- 最簡單的人工神經網絡
+	- 線性分類器
+- 線性
+	- $\alpha f(x_1)+\beta f(x_2)=f(\alpha x_1+\beta x_2)$
+- 現實環境中需要面對大量的 **非線性（non-linear）**問題
+	- 線性方法無法解決
+- Linear Layer (Fully Connected Layer)
+	- $y=xW^{\top}+b,~\text{where}~x\in\mathbb{R}^n,~W\in\mathbb{R}^{m\times n},~b\in\mathbb{R}^m$
+	- 由多 $l$ 層 linear layer 疊加成的模型可以表示成
+	  （為了方便表示，先隱藏 bias $b$）
+		- $xW_1^{\top}W_2^{\top}\cdots W_l^{\top}=xW^{\top}$
+		- 其能力與單層的 linear layer 相當
+-
