@@ -1,0 +1,6 @@
+- ## 前置
+	- [[seq2seq]]
+	- [[Transformer Block]]
+	- [[Positional Encoding]]
+- ![2022-08-06-02-10-03.gif](../assets/2022-08-06-02-10-03.gif)
+	- [Illustrated Guide to Transformers- Step by Step Explanation](https://towardsdatascience.com/illustrated-guide-to-transformers-step-by-step-explanation-f74876522bc0)

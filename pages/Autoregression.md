@@ -1,0 +1,4 @@
+- $y_{t+1}=f_{\phi}(y_{\leq t})$
+	- 加入上次的輸出 $y_t$ 得到 $y_{\leq t}$ 作為輸入序列，以得到下一個時間點的輸出 $y_{t+1}$
+- ![2022-08-06-02-16-01.gif](../assets/2022-08-06-02-16-01.gif)
+	- [WaveNet: A generative model for raw audio](https://www.deepmind.com/blog/wavenet-a-generative-model-for-raw-audio)

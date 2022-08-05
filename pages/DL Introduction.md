@@ -4,7 +4,7 @@
 	  來計算 $f_{\phi}(x)$ 與目標 $y$ 之間的差距
 - [[Optimization]]
 - [[Non-linear]]
-- [[]]
+- [[Architectures]]
 - 我們將實作的細節抽象為
 	- $\mathcal{L}$：損失函數
 	- $f$：模型

@@ -1,6 +1,7 @@
 - ## Survey
 	- [A Survey on Contrastive Self-supervised Learning](https://arxiv.org/abs/2011.00362), 2020
 	- **[Self-Supervised Representation Learning: Introduction, Advances and Challenges](https://arxiv.org/abs/2110.09327), 2021**
+		- ![2022-08-05-09-56-33.jpeg](../assets/2022-08-05-09-56-33.jpeg)
 	- [Self-Supervised Learning for Videos: A Survey](https://arxiv.org/abs/2207.00419), 2022
 	- [Survey on Self-Supervised Learning: Auxiliary Pretext Tasks and Contrastive Learning Methods in Imaging](https://www.mdpi.com/1099-4300/24/4/551), 2022
 	- [Self-Supervised Speech Representation Learning: A Review](https://arxiv.org/abs/2205.10643), 2022
@@ -13,18 +14,21 @@
 	- 可以在測試環境中持續訓練 #[[Transductive Learning]]
 		- > 與 Semi-Supervised 相同 #Semi-Supervised
 	- 目標是訓練強大的 Pre-trained Feature Extraction
-- ## 主流方法
-	- Masked AutoEncoder
+- ## 主流方法（未完成，還需要檢查）
+	- Transformation Prediction
+	- Masked Prediction
 		- BERT
-	- Contrastive Learning
+		- wav2vec 2
+	- Instance Discrimination
+		- [[SimSiam]]
+		- [[BYOL]]
+		- [[DINO]]
+	- Clustering
+	- Contrastive Instance Discrimination
 		- SimCLR
 		- MoCo
-		- CPC
-	- Momentum Encoder
-		- MoCo
-		- BYOL
-	- Predictor
-		- MoCo v3
-		- SimSiam
-		- DINO
+		- wav2vec 1&2
 - ## Trick
+	- > Self-Supervised Learning 大多都有非常多的 trick，在實作前一定要詳閱論文的說明與設定
+	- Momentum Encoder
+	-

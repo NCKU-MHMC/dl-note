@@ -10,5 +10,7 @@
 	- 為了通過梯度更新參數 $\phi$，$f_{\phi}$ 與 $\mathcal{L}$ 必須是可微
 	- $\phi\leftarrow\phi-\gamma\cfrac{\partial \mathcal{L}(f_{\phi}(x),y)}{\partial\phi}$
 	- ### Stochastic Gradient Descent
+- ## Issue
 	- ### Gradient Vanishing & Explored
-	-
+	  id:: 62ea0b90-37aa-406a-ab2e-4cb5cb9cc2c1
+	- ### Memory Cost

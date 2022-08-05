@@ -1,0 +1,2 @@
+- Pooling
+	- {{video https://youtu.be/fApFKmXcp2Y}}
