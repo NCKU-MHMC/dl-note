@@ -15,7 +15,7 @@
 - ## 訓練流程
 	- ![training-process.png](../assets/training-process.png){width 500}
 	- ### Forward #Architectures
-		- [[Non-linear]]
+		-
 	- ### Loss #Loss
 	- ### Backward
 	- ### Optimize #Optimization
@@ -25,3 +25,5 @@
 	- 沒有人為標記的 y
 - [[Semi-Supervised]]
 	- 使用人工標記與機器標記兩種資料進行訓練
+- Pretrain & Transfer Learning
+	-

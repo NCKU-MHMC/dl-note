@@ -1,5 +1,23 @@
 - ## 特點
-	- 平移不變性
+	- 與 [[Multilayer Perceptron]] 相比具有平移不變性
+	- 相比 [[RNN]] 具有高度平行化
+	- 感受野（Receptive Field）內的資訊不會遺失
+		- 但無法取代以外的資訊
+		- 感受野大小在設計架構時就已經確立
+	- 訓練所需的資料量比 [[Transformer Block]] 更少
+- ## CNN 模型結構
 	-
-- Pooling
-	- {{video https://youtu.be/fApFKmXcp2Y}}
+- ## 細節
+	- Convolution
+		- ![conv.png](../assets/conv.png){:width 500}
+		- ![conv-slide.gif](../assets/conv-slide.gif){:width 500}
+			- [DEMYSTIFYING DEEP LEARNING: PART 8, Convolutional Neural Networks](https://mukulrathi.com/demystifying-deep-learning/convolutional-neural-network-from-scratch/#interpretation-2-a-sliding-filter-over-the-image)
+	- Receptive Field
+		- ![receptive_field.png](../assets/receptive_field.png){:width 450}
+	- Padding
+		- ![padding.png](../assets/padding.png){:width 400}
+	- Stride
+		- ![stride.png](../assets/stride.png){:width 450}
+	- Pooling
+		- ![pooling.png](../assets/pooling.png){:width 400}
+		- {{video https://youtu.be/fApFKmXcp2Y}}
