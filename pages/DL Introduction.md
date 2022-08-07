@@ -20,9 +20,10 @@
 	- ### Backward
 	- ### Optimize #Optimization
 - [[Supervised]]
-	- y 是人為標記的 label
+	- 具有人工標記的 label
 - [[Unsupervised]]
-	- 沒有人為標記的 y
+	- 缺乏人工標記的 label
+	- 生成模型、分群（Clustering）等任務皆使用 Unsupervised Learning 的方式訓練
 - [[Semi-Supervised]]
 	- 使用人工標記與機器標記兩種資料進行訓練
 - Pretrain & Transfer Learning

@@ -1,0 +1,21 @@
+- ## Single-Head Attention
+	- $\textbf{Input}~q_{\text{in}}\in\mathbb{R}^{L\times i_q},~k_{\text{in}}\in\mathbb{R}^{T\times i_k},~v_{\text{in}}\in\mathbb{R}^{T\times i_v}$
+	- $\textbf{Output}~o\in\mathbb{R}^{L\times d_o}$
+	- $\textbf{Params}~W_q\in\mathbb{R}^{d_q\times i_k},~W_k\in\mathbb{R}^{d_k\times i_k},~W_v\in\mathbb{R}^{d_v\times i_v}$
+	- $\textbf{Forward}$
+		- $q,~k,~v\leftarrow q_{\text{in}}W^{\top}_q,~k_{\text{in}}W^{\top}_k,~v_{\text{in}}W^{\top}_v$
+		- $A\leftarrow \text{softmax}(\cfrac{q\cdot k^{\top}}{\sqrt{d_k}})$
+			- $A\in\mathbb{R}^{L\times T}$
+		- $o\leftarrow A\cdot v$
+- ## Multi-Head Attention
+	- $\textbf{Input}~q_{\text{in}}\in\mathbb{R}^{L\times i_q},~k_{\text{in}}\in\mathbb{R}^{T\times i_k},~v_{\text{in}}\in\mathbb{R}^{T\times i_v}$
+	- $\textbf{Output}~o\in\mathbb{R}^{L\times d_o}$
+	- $\textbf{Params}~\phi_1,\cdots,\phi_n,~W^{\top}_o\in\mathbb{R}^{d_o\times nd_v}$
+		- $\phi_i$ 代表第 $i$ 個 Single-Head Attention 的參數
+		- $n$ 表示 head 的數量
+	- $\textbf{Forward}$
+		- $h^{(i)}\leftarrow \text{SHAttn}_{\phi_i}(q_{\text{in}},k_{\text{in}},v_{\text{in}})$
+			- $h^{(i)}\in\mathbb{R}^{L\times d_v}$
+		- $h\leftarrow concat(h^{(1)},h^{(2)},\cdots,h^{(n)})$
+			- $h\in\mathbb{R}^{L\times nd_v}$
+		- $o\leftarrow hW^{\top}_o~\text{where}~W^{\top}_o\in\mathbb{R}^{d_o\times nd_v}$

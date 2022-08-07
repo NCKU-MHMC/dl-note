@@ -17,7 +17,7 @@
 		- Batch Normalization
 		- Group Normalization
 	- Attention in CNN
-		- Sparial Attention
+		- Spatial Attention
 		- Channel Attention
 		- CBAM
 	- Downsample
