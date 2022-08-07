@@ -1,0 +1,5 @@
+- ## ReLU
+- ## GELU
+- ## Sigmoid
+- ## tanh (hyperbolic tangent)
+- ## Softmax

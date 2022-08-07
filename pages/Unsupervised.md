@@ -1,3 +1,15 @@
-- 沒有人工標記的 label
-- 任務的輸入輸出沒有顯示的對應關係
-- 衍生 [[Self-Supervised]]
+- ## 特點
+	- 沒有人工標記的 label
+- ## 方法
+	- ### Generative Models
+		- GAN #GAN
+		- AutoEncoder #AE
+		- Flow-based Models
+			- [Flow-based Deep Generative Models](https://lilianweng.github.io/posts/2018-10-13-flow-models/)
+		- Diffusion Models
+			- [What are Diffusion Models?](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/)
+			- [Awesome-Diffusion-Models](https://github.com/heejkoo/Awesome-Diffusion-Models), github
+			- [Elucidating the Design Space of Diffusion-Based Generative Models](https://arxiv.org/abs/2206.00364), arXiv, 2022
+		- Autoregressive Models #Autoregression
+	- ### Self-Supervised Learning #Self-Supervised
+-

@@ -1,5 +1,8 @@
-- [[CNN]]
-- [[RNN]]
+- Convolutional Neural Networks #CNN
+	- Temporal Convolutional Networks #TCN
+- Recurrent Neural Networks #RNN
+	- Long Short-Term Memory #LSTM
+	- Gate Recurrent Unit #GRU
 - [[Transformer Block]]
 - [[Seq2Seq]]
 	- [[Transformer]]

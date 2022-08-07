@@ -1,3 +1,4 @@
 - ## 背景
 	- 最初使用在機器翻譯（Machine Translation）這種輸入與輸出長度不一致的一維時序自回歸任務 #Autoregression
 -
+-

@@ -1,2 +1,5 @@
+- ## 特點
+	- 平移不變性
+	-
 - Pooling
 	- {{video https://youtu.be/fApFKmXcp2Y}}

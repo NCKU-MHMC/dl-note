@@ -3,4 +3,5 @@
 - $\phi$: Model parameters, 模型參數
 - $f_{\phi}$: Model, 模型
 - Learning rate, 學習率
--
+- [Feature, Feature Vector](((62ee231a-a676-43d6-8a43-55a1820c9e11))), 特徵、特徵向量
+- Feature Map

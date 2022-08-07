@@ -1,30 +1,27 @@
-- 在 [[AI&ML&DL]] 中提到了 $f,\phi,x,y$
-	- 為了透過資料 $x$ 與 $y$ 找出最佳的參數 $\phi$
-	  我們還需要定義損失函數 $\mathcal{L}$ 
-	  來計算 $f_{\phi}(x)$ 與目標 $y$ 之間的差距
-- [[Optimization]]
-- [[Non-linear]]
-- [[Architectures]]
-- 我們將實作的細節抽象為
-	- $\mathcal{L}$：損失函數
-	- $f$：模型
-	- $\phi$：參數
-	- $x$
-	- $y$
-- Gradient Descent
-	- $\phi\leftarrow\phi-\gamma\cfrac{\partial \mathcal{L}(f,data,\phi)}{\partial \phi}$
-	- $\phi\leftarrow\phi-\gamma\cfrac{\partial \mathcal{L}(f_{\phi}(x),y)}{\partial \phi}$
-- $D=\{(x_1,y_1), (x_2,y_2),...(x_n,y_n)\}$
+- ## Non-linear #[[Non-linear]]
+	- Deep Learning 的模型需要將非線性函數（激活函數, activation function）穿插在線性運算（e.g. Linear Layer, Convolutional layer）之間，建構的模型才能解決非線性問題
+- ## Deeper or Wider
+	- ### Deeper
+		- 在 [[AI&ML&DL]] 提到了 $f_{\phi}$ 是由數層的 Neural Network 所建構
+			- 在每層逐步提取不同的 feature vector，可以學習不同層次的抽象特徵，能使其具有更佳的泛化能力
+			  id:: 62ee231a-a676-43d6-8a43-55a1820c9e11
+	- ### Wider
+		- 理論上只要有 **足夠** 的資料，便可以靠 **非常寬**、只有一層隱藏層的 [[Multilayer Perceptron]] (MLP) 擬合任何的函數
+			- 然而 wide neural network 的泛化能力低落，只是將資料記憶在網路中而已
+			- 需要 **非常大量** 的資料與參數才能讓 wide neural network 擁有與 deep neural network 相等的能力
+	- 相關研究可參考
+		- [Why Deep Neural Networks for Function Approximation?](https://arxiv.org/abs/1610.04161)
+		- [Universal approximation theorem](https://en.m.wikipedia.org/wiki/Universal_approximation_theorem)
+- ## 訓練流程
+	- ![training-process.png](../assets/training-process.png){width 500}
+	- ### Forward #Architectures
+		- [[Non-linear]]
+	- ### Loss #Loss
+	- ### Backward
+	- ### Optimize #Optimization
 - [[Supervised]]
 	- y 是人為標記的 label
 - [[Unsupervised]]
 	- 沒有人為標記的 y
 - [[Semi-Supervised]]
 	- 使用人工標記與機器標記兩種資料進行訓練
-- $y=f(x)$
-	- AI/ML/DL 其實就是找出讓 y = f of x 成立的函數 f
-- $y=f(\phi,x)$
-	- 而 ML 中得 f 的架構，要讓其正確的運作還需要參數 $\phi$
-	- $=(f_n(\phi_n)\circ\cdots\circ f_2(\phi_2)\circ f_1(\phi_1))(x)$
-		- 而 DL 的模型架構 f，就是由多層的 neural network 組合成的
-- ![2022-07-30-13-54-02.jpeg](../assets/2022-07-30-13-54-02.jpeg)

@@ -1,0 +1,10 @@
+- DCGAN
+- WGAN
+	- WGAN-GP
+	- WGAN-div
+- Controllable
+	- conditional GAN：在 GAN 上增加可控性。
+	- InfoGAN：讓樓上的真的有可控性。
+- PGGAN：從小→→大漸進式堆疊網路並訓練，以加快訓練速度與穩定性。
+- SeqGAN：將 GAN 應用於序列生成上。
+- VQGAN：結合 Transformer 與 VQVAE 的 GAN，能產生高解析度的輸出。

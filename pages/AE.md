@@ -1,0 +1,2 @@
+- Variational AutoEncoder #VAE
+- Vector Quantised-Variational AutoEncoder #VQ-VAE
