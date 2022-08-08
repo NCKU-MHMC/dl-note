@@ -1,3 +1,5 @@
+- ![supervised.png](../assets/supervised.png){:width 400}
 - 有人為標記的 label
 - 這類任務的輸入與輸出會具有顯示的關聯性
+- 像是影像分類、分割、語音去噪、情感辨識這些任務主流都是使用標記資料訓練
 - 衍生 [[Semi-Supervised]]

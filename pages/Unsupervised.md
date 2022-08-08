@@ -1,3 +1,4 @@
+- ![unsupervised.png](../assets/unsupervised.png){:width 400}
 - ## 特點
 	- 沒有人工標記的 label
 - ## 方法
