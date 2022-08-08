@@ -15,9 +15,8 @@
 - ## 訓練流程
 	- ![training-process.png](../assets/training-process.png){width 500}
 	- ### Forward #Architectures
-		-
 	- ### Loss #Loss
-	- ### Backward
+	- ### Backward #Backward
 	- ### Optimize #Optimization
 - [[Supervised]]
 	- 具有人工標記的 label

@@ -1,7 +1,7 @@
 - [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
 - [Identity Mappings in Deep Residual Networks](https://arxiv.org/abs/1603.05027)
 - ## 背景
-	- 若設計的 DL 模型層數太深，在訓練時就會發生 [Gradient Vanishing](((62ea0b90-37aa-406a-ab2e-4cb5cb9cc2c1)))
+	- 若設計的 DL 模型層數太深，在訓練時就會發生 [Gradient Vanishing](((62f1118e-1c9f-4146-a393-74d1b837f08a)))
 	  導致更深更大的模型效能反而不如較小的淺層模型
 	- ![2022-08-07-20-49-15.jpeg](../assets/2022-08-07-20-49-15.jpeg){:width 400}
 		- 不論是訓練還是測試，都呈現模型越深錯誤率越高
