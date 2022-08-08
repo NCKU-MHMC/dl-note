@@ -26,7 +26,7 @@
 		  並且由於是使用 CNN，既沒有無法平行化的困擾，只要在感受野的範圍內亦不會出現資訊遺忘。
 			- 但代價是感受野在設計架構時就已經固定
 		- 在 Transformer Block 中運用 [[Multi-Head Attention]] 同時解決了平行化與資訊遺忘的問題，
-			- 但代價是 $O(n^2)$ 的記憶體複雜度
+			- 但代價是 $O(L^2)$ 的記憶體複雜度，且需要大量的訓練資料
 - ## Long Short-Term Memory
 - ## Gate Recurrent Unit
 ## Quasi-Recurrent Neural Networks
