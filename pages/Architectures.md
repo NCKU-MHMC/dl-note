@@ -11,6 +11,7 @@
 	- [[Transformer Block]]
 - ## 常見組件、技巧（Trick）
 	- Dropout
+	  id:: 62efa794-4543-4b2c-bac4-0dd9ffef8401
 	- Normalization Layer
 		- Instance Normalization
 		- Layer Normalization

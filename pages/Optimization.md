@@ -40,3 +40,4 @@
 		- 容易發生與資料集較小，而模型結構卻太過複雜時
 		- 會使得模型在訓練資料上表現優異，但卻在沒有看過的資料上效能低下
 			- 泛化性（generalization）低
+		- 使用 [dropout](((62efa794-4543-4b2c-bac4-0dd9ffef8401)))、[L1/L2 regularization](((62ee3508-a9db-4649-b2c6-a6b440a74fb0))) 與 [[Data Augmentation]] 可以在一定程度上避免 overfitting
