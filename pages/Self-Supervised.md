@@ -14,21 +14,43 @@
 	- 可以在測試環境中持續訓練 #[[Transductive Learning]]
 		- > 與 Semi-Supervised 相同 #Semi-Supervised
 	- 目標是訓練強大的 Pre-trained Feature Extraction
-- ## 主流方法（未完成，還需要檢查）
-	- Transformation Prediction
-	- Masked Prediction
+		- 使用 Self-Supervised 得到的 features 只靠**線性分類器**或是 **k-nearest neighbors**（k-NN）就能有不錯的分類結果
+		- 適合遷移到不同的下游任務
+	- ### vs Semi-Supervised
+		- Semi-Supervised 還是需要少量的標記資料一起訓練
+		  而 Self-Supervised 則是在 pretrain 時不使用任何標記資料
+- ## 主流方法（未完成）
+	- ### Transformation Prediction
+	- ### Masked Prediction
+		- #### 特點
+			- 將部分輸入遮蔽掉，並訓練模型能還原這部分的輸入
+			- 遮蔽的資訊量影響任務的難易度
 		- BERT
 		- wav2vec 2
-	- Instance Discrimination
-		- [[SimSiam]]
-		- [[BYOL]]
-		- [[DINO]]
-	- Clustering
-	- Contrastive Instance Discrimination
+	- ### Clustering
+	- ### Contrastive Instance Discrimination
+		- #### 特點
+			- 使用 negative sample 與 Data Augmentation 生成的 positive sample 訓練
+			  讓 positive 互相逼近並遠離 negative sample
+			- 需要較大的 batch size 容納大量的 negative sample
+			- 不易發生 collapse
+			- > collapse：所有輸入都會產生同一個 feature vector
 		- SimCLR
 		- MoCo
 		- wav2vec 1&2
+	- ### Instance Discrimination
+		- #### 特點
+			- 不像 Contrastive Instance Discrimination 需要定義 negative sample，
+			  Instance Discrimination 只使用 positive sample 進行訓練，
+			  因此只需要更小的 batch size 就能夠訓練，但容易因設計不良而發生 collapse
+		- [[SimSiam]]
+		- [[BYOL]]
+		- [[DINO]]
 - ## Trick
 	- > Self-Supervised Learning 大多都有非常多的 trick，在實作前一定要詳閱論文的說明與設定
 	- Momentum Encoder
-	-
+	- Projector & Predictor
+	- Batch Normalization
+	- Data Augmentation
+	- Memory Bank
+	- Sinkhorn-Knopp
