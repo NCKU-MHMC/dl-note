@@ -9,7 +9,7 @@
 	- ### 公式
 		- $h_t=f(x_t,h_{t-1})=\alpha(x_tW^{\top}_x+h_{t-1}W^{\top}_h+b),$
 			- $\text{where}~x\in\mathbb{R}^m,~h\in\mathbb{R}^n,~W_x\in\mathbb{R}^{n\times m},~W_h\in\mathbb{R}^{n\times n},~b\in\mathbb{R}^n$
-			- 激活函數 $\alpha$ 在 RNN 中通常使用 tanh
+			- 激活函數 $\alpha$ 在 RNN 中通常使用 [tanh](((62f12694-fe6f-4363-aa50-91f06e04ef2a)))
 	- ### 局限性
 		- ![rnn.png](../assets/rnn.png){:width 500}
 			- **平行化效率低下**
@@ -28,5 +28,9 @@
 		- 在 Transformer Block 中運用 [[Multi-Head Attention]] 同時解決了平行化與資訊遺忘的問題，
 			- 但代價是 $O(L^2)$ 的記憶體複雜度，且需要大量的訓練資料
 - ## Long Short-Term Memory
+	- ![image.png](../assets/image_1659977466630_0.png)
+		- [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 - ## Gate Recurrent Unit
+	- ![image.png](../assets/image_1659977555741_0.png)
+		- [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 ## Quasi-Recurrent Neural Networks

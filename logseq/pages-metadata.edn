@@ -1,0 +1,201 @@
+[{:block/name "..",
+  :block/created-at 1659971221750,
+  :block/updated-at 1659971221750}
+ {:block/name "a",
+  :block/created-at 1659976599237,
+  :block/updated-at 1659976599237}
+ {:block/name "activation function",
+  :block/created-at 1659971220119,
+  :block/updated-at 1659977201428}
+ {:block/name "ae",
+  :block/created-at 1659971220258,
+  :block/updated-at 1659971220258}
+ {:block/name "ai&ml&dl",
+  :block/created-at 1659971220002,
+  :block/updated-at 1659971220002}
+ {:block/name "architectures",
+  :block/created-at 1659971220397,
+  :block/updated-at 1659971220397}
+ {:block/name "aug 3rd, 2022",
+  :block/created-at 1659971219930,
+  :block/updated-at 1659971219930}
+ {:block/name "aug 8th, 2022",
+  :block/created-at 1659971221840,
+  :block/updated-at 1659971221840}
+ {:block/name "aug 9th, 2022",
+  :block/created-at 1659974402321,
+  :block/updated-at 1659974402321}
+ {:block/name "autoregression",
+  :block/created-at 1659971220455,
+  :block/updated-at 1659971220455}
+ {:block/name "b",
+  :block/created-at 1659976599237,
+  :block/updated-at 1659976599237}
+ {:block/name "backward",
+  :block/created-at 1659971220508,
+  :block/updated-at 1659971220508}
+ {:block/name "byol",
+  :block/created-at 1659971221191,
+  :block/updated-at 1659971221191}
+ {:block/name "c",
+  :block/created-at 1659976599237,
+  :block/updated-at 1659976599237}
+ {:block/name "canceled",
+  :block/created-at 1659976599237,
+  :block/updated-at 1659976599237}
+ {:block/name "cancelled",
+  :block/created-at 1659976599237,
+  :block/updated-at 1659976599237}
+ {:block/name "card",
+  :block/created-at 1659976599237,
+  :block/updated-at 1659976599237}
+ {:block/name "cnn",
+  :block/created-at 1659971220069,
+  :block/updated-at 1659971220069}
+ {:block/name "contents",
+  :block/created-at 1659976599237,
+  :block/updated-at 1659976599237}
+ {:block/name "data augmentation",
+  :block/created-at 1659971221248,
+  :block/updated-at 1659971221248}
+ {:block/name "dino",
+  :block/created-at 1659971221192,
+  :block/updated-at 1659971221192}
+ {:block/name "dl introduction",
+  :block/created-at 1659971219955,
+  :block/updated-at 1659971219955}
+ {:block/name "doing",
+  :block/created-at 1659976599237,
+  :block/updated-at 1659976599237}
+ {:block/name "done",
+  :block/created-at 1659976599237,
+  :block/updated-at 1659976599237}
+ {:block/name "efficient transformers",
+  :block/created-at 1659971220707,
+  :block/updated-at 1659971220707}
+ {:block/name "favorites",
+  :block/created-at 1659976599237,
+  :block/updated-at 1659976599237}
+ {:block/name "gan",
+  :block/created-at 1659971220762,
+  :block/updated-at 1659977244729}
+ {:block/name "gradient descent",
+  :block/created-at 1659971220120,
+  :block/updated-at 1659971220120}
+ {:block/name "gru",
+  :block/created-at 1659971220382,
+  :block/updated-at 1659971220382}
+ {:block/name "in-progress",
+  :block/created-at 1659976599237,
+  :block/updated-at 1659976599237}
+ {:block/name "jul 15th, 2022",
+  :block/created-at 1659971220075,
+  :block/updated-at 1659971220075}
+ {:block/name "jul 28th, 2022",
+  :block/created-at 1659971220037,
+  :block/updated-at 1659971220037}
+ {:block/name "jul 29th, 2022",
+  :block/created-at 1659971220004,
+  :block/updated-at 1659971220004}
+ {:block/name "jul 30th, 2022",
+  :block/created-at 1659971219982,
+  :block/updated-at 1659971219982}
+ {:block/name "jul 31st, 2022",
+  :block/created-at 1659971219956,
+  :block/updated-at 1659971219956}
+ {:block/name "jul 8th, 2022",
+  :block/created-at 1659971220121,
+  :block/updated-at 1659971220121}
+ {:block/name "later",
+  :block/created-at 1659976599237,
+  :block/updated-at 1659976599237}
+ {:block/name "loss",
+  :block/created-at 1659971220643,
+  :block/updated-at 1659971220643}
+ {:block/name "lstm",
+  :block/created-at 1659971220380,
+  :block/updated-at 1659971220380}
+ {:block/name "multi-head attention",
+  :block/created-at 1659971220854,
+  :block/updated-at 1659971220854}
+ {:block/name "multilayer perceptron",
+  :block/created-at 1659971220117,
+  :block/updated-at 1659971220117}
+ {:block/name "non-linear",
+  :block/created-at 1659971220637,
+  :block/updated-at 1659971220637}
+ {:block/name "now",
+  :block/created-at 1659976599237,
+  :block/updated-at 1659976599237}
+ {:block/name "optimization",
+  :block/created-at 1659971220648,
+  :block/updated-at 1659971220648}
+ {:block/name "pixel rnn",
+  :block/created-at 1659971220396,
+  :block/updated-at 1659971220396}
+ {:block/name "positional encoding",
+  :block/created-at 1659971221031,
+  :block/updated-at 1659971221031}
+ {:block/name "qrnn",
+  :block/created-at 1659971220384,
+  :block/updated-at 1659971220384}
+ {:block/name "readme",
+  :block/created-at 1659971220237,
+  :block/updated-at 1659971220237}
+ {:block/name "resnet",
+  :block/created-at 1659971221131,
+  :block/updated-at 1659971221131}
+ {:block/name "rnn",
+  :block/created-at 1659971220067,
+  :block/updated-at 1659977764536}
+ {:block/name "self-supervised",
+  :block/created-at 1659971220073,
+  :block/updated-at 1659971220073}
+ {:block/name "semi-supervised",
+  :block/created-at 1659971220071,
+  :block/updated-at 1659971220071}
+ {:block/name "seq2seq",
+  :block/created-at 1659971220035,
+  :block/updated-at 1659971220035}
+ {:block/name "simsiam",
+  :block/created-at 1659971221190,
+  :block/updated-at 1659971221190}
+ {:block/name "supervised",
+  :block/created-at 1659971220070,
+  :block/updated-at 1659971220070}
+ {:block/name "symbols & technical terms",
+  :block/created-at 1659971219928,
+  :block/updated-at 1659971219928}
+ {:block/name "tcn",
+  :block/created-at 1659971220386,
+  :block/updated-at 1659971220386}
+ {:block/name "todo",
+  :block/created-at 1659976599237,
+  :block/updated-at 1659976599237}
+ {:block/name "transductive learning",
+  :block/created-at 1659971221187,
+  :block/updated-at 1659971221187}
+ {:block/name "transformer",
+  :block/created-at 1659971220394,
+  :block/updated-at 1659971220394}
+ {:block/name "transformer block",
+  :block/created-at 1659971220066,
+  :block/updated-at 1659971220066}
+ {:block/name "unet",
+  :block/created-at 1659971220395,
+  :block/updated-at 1659971220395}
+ {:block/name "unsupervised",
+  :block/created-at 1659971220074,
+  :block/updated-at 1659971220074}
+ {:block/name "vae",
+  :block/created-at 1659971220256,
+  :block/updated-at 1659971220256}
+ {:block/name "vq-vae",
+  :block/created-at 1659971220257,
+  :block/updated-at 1659971220257}
+ {:block/name "wait",
+  :block/created-at 1659976599237,
+  :block/updated-at 1659976599237}
+ {:block/name "waiting",
+  :block/created-at 1659976599237, 
+  :block/updated-at 1659976599237}]

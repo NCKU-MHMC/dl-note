@@ -15,8 +15,11 @@
 				- Generator 的目標是讓 Discriminator 將生成樣本判斷成真實資料
 				- 將整個 Discriminator 當成 Loss Function 的一部分
 	- ### 缺陷
-		- 在原版的 GAN 中在 Discriminator 的輸出使用了 Sigmoid 這類有界的函數，
+		- 在原版的 GAN 中在 Discriminator 的輸出使用了 [Sigmoid](((62f12694-5c6c-4fce-93cc-e092d8ec7184))) 這類有界的函數，
 		  導致當 Discriminator 訓練過度時會發生梯度消失的問題。
+			- ![image.png](../assets/image_1659974732464_0.png){:width 600}
+				- 當 Discriminator 太強的時候，通過 Sigmoid 的輸出會接近 0 與 1，
+				  此時回傳給 Generator 的梯度便會接近於 0
 			- 這時候原本要用於訓練 Generator 的梯度亦會跟著消失，
 			  最終讓整個 GAN 的訓練流程崩潰。
 		- 上述缺陷在後來的 WGAN、CTGAN、SN-GAN、Boundary Equilibrium GAN 等等方法上得到改善
@@ -31,7 +34,7 @@
 				- 簡單的使用 clipping 限制 Critic，會導致 Critic 大多數參數是最大或最小值
 				  使其對 Generator 的變化不敏感，而發生 mode collapse（生成多樣性極低）
 	- ### WGAN-GP
-		- 改使用 gradient penalty loss 限制 Critic 回傳的梯度大小您，解決了 clipping 的問題
+		- 改使用 gradient penalty loss 限制 Critic 回傳的梯度大小，解決了 clipping 的問題
 	- ### WGAN-div
 - Controllable
 	- conditional GAN：需要類別標籤
