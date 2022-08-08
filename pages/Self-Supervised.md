@@ -21,14 +21,18 @@
 		  而 Self-Supervised 則是在 pretrain 時不使用任何標記資料
 - ## 主流方法（未完成）
 	- ### Transformation Prediction
+		- ![image.png](../assets/image_1659978502650_0.png){:width 400}
 	- ### Masked Prediction
+		- ![image.png](../assets/image_1659978544193_0.png){:width 400}
 		- #### 特點
 			- 將部分輸入遮蔽掉，並訓練模型能還原這部分的輸入
 			- 遮蔽的資訊量影響任務的難易度
 		- BERT
 		- wav2vec 2
 	- ### Clustering
+		- ![image.png](../assets/image_1659978646125_0.png){:width 500}
 	- ### Contrastive Instance Discrimination
+		- ![image.png](../assets/image_1659978676915_0.png){:width 500}
 		- #### 特點
 			- 使用 negative sample 與 Data Augmentation 生成的 positive sample 訓練
 			  讓 positive 互相逼近並遠離 negative sample
@@ -39,6 +43,7 @@
 		- MoCo
 		- wav2vec 1&2
 	- ### Instance Discrimination
+		- ![image.png](../assets/image_1659978606928_0.png){:width 400}
 		- #### 特點
 			- 不像 Contrastive Instance Discrimination 需要定義 negative sample，
 			  Instance Discrimination 只使用 positive sample 進行訓練，
