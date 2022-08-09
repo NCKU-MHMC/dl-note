@@ -6,13 +6,14 @@
 	- [Survey on Self-Supervised Learning: Auxiliary Pretext Tasks and Contrastive Learning Methods in Imaging](https://www.mdpi.com/1099-4300/24/4/551), 2022
 	- [Self-Supervised Speech Representation Learning: A Review](https://arxiv.org/abs/2205.10643), 2022
 - ## 背景
-	- > 與 Semi-Supervised 相同 #Semi-Supervised
+	- > 與 [Semi-Supervised](((62f12695-556d-476b-b1ef-8db46a1f222a))) 相同
 	- 標記資料（$D$）相對稀少且成本高昂
 	- 現實世界充滿大量的未標記資料（$U$）卻難以善加利用
 - ## 特點
-	- 預訓練時無需任何 label
+	- > 與 [Semi-Supervised](((62f1ece2-6a74-41f7-be39-9faf29a5b19d))) 重疊
 	- 可以在測試環境中持續訓練 #[[Transductive Learning]]
-		- > 與 Semi-Supervised 相同 #Semi-Supervised
+	- 有效利用大量的未標記資料
+		- 預訓練時無需任何 label
 	- 目標是訓練強大的 Pre-trained Feature Extraction
 		- 使用 Self-Supervised 得到的 features 只靠**線性分類器**或是 **k-nearest neighbors**（k-NN）就能有不錯的分類結果
 		- 適合遷移到不同的下游任務
