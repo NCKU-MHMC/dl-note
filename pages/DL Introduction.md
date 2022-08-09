@@ -18,12 +18,16 @@
 	- ### Loss #Loss
 	- ### Backward #Backward
 	- ### Optimize #Optimization
-- [[Supervised]]
-	- 具有人工標記的 label
-- [[Unsupervised]]
-	- 缺乏人工標記的 label
-	- 生成模型、分群（Clustering）等任務皆使用 Unsupervised Learning 的方式訓練
-- [[Semi-Supervised]]
-	- 使用人工標記與機器標記兩種資料進行訓練
+- ## ML/DL 三大方法
+	- ### Supervised Learning #Supervised
+		- 具有人工標記的 label
+		- #### 衍生 [[Semi-Supervised]]
+			- 使用人工標記與機器標記兩種資料進行訓練
+	- ### Unsupervised Learning #Unsupervised
+		- 缺乏人工標記的 label
+		- 生成模型、分群（Clustering）等任務皆使用 Unsupervised Learning 的方式訓練
+		- #### 衍出 [[Self-Supervised]]
+			- 使用未標記資料訓練高泛化能力的 Pre-trained Feature Extraction
+	- ### Reinforcement Learning #[[Reinforcement Learning]]
 - Pretrain & Transfer Learning
 	-
