@@ -12,11 +12,12 @@
 - ## 常見組件、技巧（Trick）
 	- Dropout
 	  id:: 62efa794-4543-4b2c-bac4-0dd9ffef8401
-	- Normalization Layer
+	- [[Normalization Layer]]
 		- Instance Normalization
 		- Layer Normalization
 		- Batch Normalization
 		- Group Normalization
+		- Weight Standardization
 	- Attention in CNN
 		- Spatial Attention
 		- Channel Attention

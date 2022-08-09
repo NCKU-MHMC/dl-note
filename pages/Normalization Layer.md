@@ -1,0 +1,9 @@
+- ![2022-08-09-12-00-42.jpeg](../assets/2022-08-09-12-00-42.jpeg){:width 700}
+- Instance Normalization
+- Layer Normalization
+	- ![2022-08-09-11-54-54.jpeg](../assets/2022-08-09-11-54-54.jpeg){:width 500}
+		- [Leveraging Batch Normalization for Vision Transformers](https://ieeexplore.ieee.org/document/9607565)
+		- **注意**：在 CNN 與 Transformer Block 中，LayerNorm 的計算的目標軸不同
+- Batch Normalization
+- Group Normalization
+- Weight Standardization
