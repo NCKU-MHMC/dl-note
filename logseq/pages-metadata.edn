@@ -63,7 +63,7 @@
   :block/updated-at 1659971221192}
  {:block/name "dl introduction",
   :block/created-at 1659971219955,
-  :block/updated-at 1659971219955}
+  :block/updated-at 1660021750390}
  {:block/name "doing",
   :block/created-at 1659976599237,
   :block/updated-at 1659976599237}
@@ -124,6 +124,9 @@
  {:block/name "non-linear",
   :block/created-at 1659971220637,
   :block/updated-at 1659971220637}
+ {:block/name "normalization layer",
+  :block/created-at 1660020330520,
+  :block/updated-at 1660020330520}
  {:block/name "now",
   :block/created-at 1659976599237,
   :block/updated-at 1659976599237}
@@ -142,6 +145,9 @@
  {:block/name "readme",
   :block/created-at 1659971220237,
   :block/updated-at 1659971220237}
+ {:block/name "reinforcement learning",
+  :block/created-at 1660021377707,
+  :block/updated-at 1660021377707}
  {:block/name "resnet",
   :block/created-at 1659971221131,
   :block/updated-at 1659971221131}
@@ -150,10 +156,10 @@
   :block/updated-at 1659977764536}
  {:block/name "self-supervised",
   :block/created-at 1659971220073,
-  :block/updated-at 1659978745177}
+  :block/updated-at 1660022382696}
  {:block/name "semi-supervised",
   :block/created-at 1659971220071,
-  :block/updated-at 1659971220071}
+  :block/updated-at 1660022137728}
  {:block/name "seq2seq",
   :block/created-at 1659971220035,
   :block/updated-at 1659971220035}
