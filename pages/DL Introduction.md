@@ -1,3 +1,5 @@
+public:: true
+
 - ## Non-linear #[[Non-linear]]
 	- Deep Learning 的模型需要將非線性函數（激活函數, activation function）穿插在線性運算（e.g. Linear Layer, Convolutional layer）之間，建構的模型才能解決非線性問題
 - ## Deeper or Wider

@@ -19,12 +19,6 @@
  {:block/name "aug 3rd, 2022",
   :block/created-at 1659971219930,
   :block/updated-at 1659971219930}
- {:block/name "aug 8th, 2022",
-  :block/created-at 1659971221840,
-  :block/updated-at 1659971221840}
- {:block/name "aug 9th, 2022",
-  :block/created-at 1659974402321,
-  :block/updated-at 1659974402321}
  {:block/name "autoregression",
   :block/created-at 1659971220455,
   :block/updated-at 1659971220455}
@@ -70,6 +64,9 @@
  {:block/name "done",
   :block/created-at 1659976599237,
   :block/updated-at 1659976599237}
+ {:block/name "dpm",
+  :block/created-at 1663220244937,
+  :block/updated-at 1663220244937}
  {:block/name "efficient transformers",
   :block/created-at 1659971220707,
   :block/updated-at 1659971220707}
@@ -160,6 +157,9 @@
  {:block/name "semi-supervised",
   :block/created-at 1659971220071,
   :block/updated-at 1660022137728}
+ {:block/name "sep 15th, 2022",
+  :block/created-at 1663219889791,
+  :block/updated-at 1663219889791}
  {:block/name "seq2seq",
   :block/created-at 1659971220035,
   :block/updated-at 1659971220035}
