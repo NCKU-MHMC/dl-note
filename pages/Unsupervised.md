@@ -7,7 +7,7 @@
 		- AutoEncoder #AE
 		- Flow-based Models
 			- [Flow-based Deep Generative Models](https://lilianweng.github.io/posts/2018-10-13-flow-models/)
-		- Diffusion Models
+		- Diffusion Models #DPM
 			- [What are Diffusion Models?](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/)
 			- [Awesome-Diffusion-Models](https://github.com/heejkoo/Awesome-Diffusion-Models), github
 			- [Elucidating the Design Space of Diffusion-Based Generative Models](https://arxiv.org/abs/2206.00364), arXiv, 2022
