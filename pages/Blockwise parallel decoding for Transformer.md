@@ -1,0 +1,5 @@
+- ## Info
+	- tag: ((63556aea-a8cc-4590-b1e9-4a2c56abcb7a))
+	- [Blockwise Parallel Decoding for Deep Autoregressive Models](https://proceedings.neurips.cc/paper/2018/hash/c4127b9194fe8562c64dc0f5bf2c93bc-Abstract.html)
+	- previous version:
+	- next version: #[[Insertion Transformer]]

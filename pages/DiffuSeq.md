@@ -1,0 +1,6 @@
+- ## Info
+	- tag: #DPM
+	- [DiffuSeq: Sequence to Sequence Text Generation with Diffusion Models](https://arxiv.org/abs/2210.08933)
+	- [source link](https://github.com/Shark-NLP/DiffuSeq)
+	- previous version:
+	- next version:

@@ -2,3 +2,10 @@
 - [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239)
 - [Score-Based Generative Modeling through Stochastic Differential Equations](https://openreview.net/forum?id=PxTIG12RRHS)
 - [Elucidating the Design Space of Diffusion-Based Generative Models](https://arxiv.org/abs/2206.00364)
+- Diffusion Models/Score-based Models
+- Text Generation
+	- LATER [[Diffusion-LM]]
+	- LATER [[DiffuSeq]]
+- 3D Shape Generation
+	- LATER [[LION]]
+	- LATER [[DreamFusion]]

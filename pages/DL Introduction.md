@@ -30,4 +30,9 @@
 			- 使用未標記資料訓練高泛化能力的 Pre-trained Feature Extraction
 	- ### Reinforcement Learning #[[Reinforcement Learning]]
 - Pretrain & Transfer Learning
-	-
+- ## Task
+	- ### Image
+	- ### Text
+	- ### Audio
+- [[template]]
+-

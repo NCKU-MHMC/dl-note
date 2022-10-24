@@ -1,0 +1,5 @@
+- ## Info
+	- tag: ((63556aea-a8cc-4590-b1e9-4a2c56abcb7a))
+	- [Insertion Transformer: Flexible Sequence Generation via Insertion Operations](https://proceedings.mlr.press/v97/stern19a.html)
+	- previous version: #[[Blockwise parallel decoding for Transformer]]
+	- next version: #[[Levenshtein Transformer]]

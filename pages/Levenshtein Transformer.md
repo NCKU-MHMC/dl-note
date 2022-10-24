@@ -1,0 +1,5 @@
+- ## Info
+	- tag: ((63556aea-a8cc-4590-b1e9-4a2c56abcb7a))
+	- [Levenshtein Transformer](https://papers.nips.cc/paper/2019/hash/675f9820626f5bc0afb47b57890b466e-Abstract.html)
+	- previous version: #[[Insertion Transformer]]
+	- next version:
