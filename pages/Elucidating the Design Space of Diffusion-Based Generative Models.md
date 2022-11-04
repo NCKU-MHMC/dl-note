@@ -1,0 +1,4 @@
+- ## Info
+	- tag: #DPM
+	- [Elucidating the Design Space of Diffusion-Based Generative Models](https://arxiv.org/abs/2206.00364)
+	- source link: [NVlabs/edm](https://github.com/NVlabs/edm), [crowsonkb/k-diffusion](https://github.com/crowsonkb/k-diffusion)
