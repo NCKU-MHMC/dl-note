@@ -3,11 +3,11 @@
 	- [Diffusion-LM Improves Controllable Text Generation](https://arxiv.org/abs/2205.14217)
 	- [source link](https://github.com/xiangli1999/diffusion-lm)
 - ## Introduction
-	- 大型的 AR-LM 能生成高品質的文本，但是為了能應用到日常生活，需要能控制生成的文本
+	- 預訓練的大型 AR-LM 能生成高品質的文本，但是為了能應用到日常生活，需要能控制生成的文本
 		- 常見使用 (condition, text) 的形式來微調模型
 			- 但是，為每種任務都更新 LM 參數的成本高昂，並且也難以組合複數種條件
 				- e.g. generate text that is both positive sentiment and non-toxic.
-		- Plug & Play 可以在保持 LM 固定的情況下控制生成，但是目前的 Plug & Play 僅能夠進行簡單的控制（像是情緒或主題那種屬性級別的條件）
+		- Plug & Play #PPLM 可以在保持 LM 固定的情況下控制生成，但是目前的 Plug & Play 僅能夠進行簡單的控制（像是情緒或主題那種屬性級別的條件）
 	- 近期在影像與音頻的可控性生成研究中，基於 Continuous Diffusion Models 的方法在生成品質與可控性上都有非常出色的表現。
 		- 然而文本的離散性質，使其尚未能與
 	- 為了能進行更複雜的控制，本研究提出了基於連續擴散模型的 Diffusion-LM
@@ -20,7 +20,8 @@
 	- 由於 $\mathcal{L}^\text{e2e}_\text{vlb}(\text{w})$ 需要搭配許多 trick 才能穩定收斂，因此本論文改採用 $\mathcal{L}^\text{e2e}_\text{simple}(\text{w})$ 作為 loss（推導源於 #DDPM
 	- $\mathcal{L}^\text{e2e}_\text{simple}(\text{w})=\underset{q_{\phi}(\text{x}_{0:T}|\text{w})}{\mathbb{E}}[\mathcal{L}_\text{simple}(\text{x}_0)+{||EMB(\text{w})-\mu_{\theta}(\text{x}_1,1)||}^2-\log p_{\theta}(\text{w}|\text{x}_0)]$
 		- $\mathcal{L}_\text{simple}(\text{x}_0)=\sum_{t=1}^T \underset{q(\text{x}_t|\text{x}_0)}{\mathbb{E}}{||\mu_{\theta}(\text{x}_t,t)-\hat{\mu}(\text{x}_t,\text{x}_0)||}^2$
-- ## Reverse Step
+- ## Controllable Generation
+	- 使用 Minimum Bayes-Risk (MBR) 進行解碼
 	- $\nabla_{x_{t-1}}\log p(x_{t-1}|x_t,c)=\nabla_{x_{t-1}}\log p(x_{t-1}|x_t)+\nabla_{x_{t-1}}\log p(c|x_{t-1})$
 		- 前項的 $\nabla_{x_{t-1}}\log p(x_{t-1}|x_t)$ 是 diffusion model 輸出的梯度。
 		  （對應 ((635e8deb-bd02-45c0-8e20-e9b9235f687c)) 835~843 行）
@@ -42,7 +43,13 @@
 					- 101~104 行的 `logp_term` 對應上式的 $\lambda \log p(x_{t-1}|x_t)$，也就是 **fluency regularization** 的部分。
 					  應該跟 PPLM 的 KL loss 具有相同的意義，用來避免引導到超出正常語言結構。
 				- **multiple gradient steps** 的概念與 [[Score-Based Generative Modeling through Stochastic Differential Equations]] 的 Predictor-Corrector (PC) sampling 有些類似，都是透過在 reverse process 之間插入額外的修改步驟來提高生成的結果。
-- ## Experiments
+- ## Experiment Setup
+	- ### Control tasks
+		- #### Classifier-Guided
+			-
+		- #### Classifier-Free
+			-
+- ## Main Results
 	- ![2022-11-04-22-28-44.jpeg](../assets/2022-11-04-22-28-44.jpeg)
 	- ![2022-11-04-22-28-59.jpeg](../assets/2022-11-04-22-28-59.jpeg)
 	- ![2022-11-04-22-29-14.jpeg](../assets/2022-11-04-22-29-14.jpeg)
