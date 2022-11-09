@@ -28,6 +28,9 @@
  {:block/name "backward",
   :block/created-at 1659971220508,
   :block/updated-at 1659971220508}
+ {:block/name "blockwise parallel decoding for transformer",
+  :block/created-at 1667802967543,
+  :block/updated-at 1667802967543}
  {:block/name "byol",
   :block/created-at 1659971221191,
   :block/updated-at 1659971221191}
@@ -52,6 +55,15 @@
  {:block/name "data augmentation",
   :block/created-at 1659971221248,
   :block/updated-at 1659971221248}
+ {:block/name "ddpm",
+  :block/created-at 1667802967642,
+  :block/updated-at 1667802967642}
+ {:block/name "diffuseq",
+  :block/created-at 1667802967565,
+  :block/updated-at 1667802967565}
+ {:block/name "diffusion-lm",
+  :block/created-at 1667802967650,
+  :block/updated-at 1667802967650}
  {:block/name "dino",
   :block/created-at 1659971221192,
   :block/updated-at 1659971221192}
@@ -67,9 +79,16 @@
  {:block/name "dpm",
   :block/created-at 1663220244937,
   :block/updated-at 1663220244937}
+ {:block/name "dreamfusion",
+  :block/created-at 1667802968519,
+  :block/updated-at 1667802968519}
  {:block/name "efficient transformers",
   :block/created-at 1659971220707,
   :block/updated-at 1659971220707}
+ {:block/name
+  "elucidating the design space of diffusion-based generative models",
+  :block/created-at 1667802967853,
+  :block/updated-at 1667802967853}
  {:block/name "favorites",
   :block/created-at 1659976599237,
   :block/updated-at 1659976599237}
@@ -85,6 +104,9 @@
  {:block/name "in-progress",
   :block/created-at 1659976599237,
   :block/updated-at 1659976599237}
+ {:block/name "insertion transformer",
+  :block/created-at 1667802967541,
+  :block/updated-at 1667802967541}
  {:block/name "jul 15th, 2022",
   :block/created-at 1659971220075,
   :block/updated-at 1659971220075}
@@ -106,6 +128,12 @@
  {:block/name "later",
   :block/created-at 1659976599237,
   :block/updated-at 1659976599237}
+ {:block/name "levenshtein transformer",
+  :block/created-at 1667802967881,
+  :block/updated-at 1667802967881}
+ {:block/name "lion",
+  :block/created-at 1667802968516,
+  :block/updated-at 1667802968516}
  {:block/name "loss",
   :block/created-at 1659971220643,
   :block/updated-at 1659971220643}
@@ -124,9 +152,21 @@
  {:block/name "normalization layer",
   :block/created-at 1660020330520,
   :block/updated-at 1660020330520}
+ {:block/name "nov 7th, 2022",
+  :block/created-at 1667802967393,
+  :block/updated-at 1667802967393}
+ {:block/name "nov 8th, 2022",
+  :block/created-at 1667839057800,
+  :block/updated-at 1667839057800}
+ {:block/name "nov 9th, 2022",
+  :block/created-at 1667964284820,
+  :block/updated-at 1667964284820}
  {:block/name "now",
   :block/created-at 1659976599237,
   :block/updated-at 1659976599237}
+ {:block/name "oct 24th, 2022",
+  :block/created-at 1667802968035,
+  :block/updated-at 1667802968035}
  {:block/name "optimization",
   :block/created-at 1659971220648,
   :block/updated-at 1659971220648}
@@ -136,6 +176,9 @@
  {:block/name "positional encoding",
   :block/created-at 1659971221031,
   :block/updated-at 1659971221031}
+ {:block/name "pplm",
+  :block/created-at 1667802967640,
+  :block/updated-at 1667802967640}
  {:block/name "qrnn",
   :block/created-at 1659971220384,
   :block/updated-at 1659971220384}
@@ -151,6 +194,10 @@
  {:block/name "rnn",
   :block/created-at 1659971220067,
   :block/updated-at 1659977764536}
+ {:block/name
+  "score-based generative modeling through stochastic differential equations",
+  :block/created-at 1667802967645,
+  :block/updated-at 1667802967645}
  {:block/name "self-supervised",
   :block/created-at 1659971220073,
   :block/updated-at 1660022382696}
@@ -175,6 +222,9 @@
  {:block/name "tcn",
   :block/created-at 1659971220386,
   :block/updated-at 1659971220386}
+ {:block/name "template",
+  :block/created-at 1667802968008,
+  :block/updated-at 1667802968008}
  {:block/name "todo",
   :block/created-at 1659976599237,
   :block/updated-at 1659976599237}
