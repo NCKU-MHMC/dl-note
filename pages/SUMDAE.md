@@ -1,0 +1,6 @@
+- ## Info
+	- tag: ((63556aea-a8cc-4590-b1e9-4a2c56abcb7a))
+	- [Step-unrolled Denoising Autoencoders for Text Generation](https://openreview.net/forum?id=T0GpzBQ1Fg6)
+	- [source link](https://github.com/vvvm23/sundae)
+	- previous version:
+	- next version:

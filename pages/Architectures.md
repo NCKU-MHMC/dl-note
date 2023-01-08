@@ -35,3 +35,6 @@
 		- [[Transformer]]
 	- [[UNet]]
 	- Pixel RNN, Pixel CNN #[[Pixel RNN]]
+- ((63501ad2-ac08-440d-9013-83ce7081d17f))
+- ## Other
+	- [[LaMa]]

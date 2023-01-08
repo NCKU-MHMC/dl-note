@@ -3,6 +3,13 @@
 - [[Score-Based Generative Modeling through Stochastic Differential Equations]]
 - [[Elucidating the Design Space of Diffusion-Based Generative Models]]
 - Diffusion Models/Score-based Models
+- Fast Sample
+  id:: 63846cb4-2ff9-4d0b-9d09-a83cb00c3167
+	- LATER [[DDIM]]
+	- LATER [[DEIS]]
+	- LATER [[DPM-Solver]]
+	- LATER [[DPM-Solver++]]
+	-
 - Text Generation
 	- LATER [[Diffusion-LM]]
 	- LATER [[DiffuSeq]]

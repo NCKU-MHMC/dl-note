@@ -1,0 +1,6 @@
+- ## Info
+	- tag: #Architectures
+	- [Resolution-robust Large Mask Inpainting with Fourier Convolutions](https://openreview.net/forum?id=_w-ZhVNFiSm)
+	- [source link](https://github.com/saic-mdal/lama)
+	- [demo](https://colab.research.google.com/github/saic-mdal/lama/blob/master/colab/LaMa_inpainting.ipynb)
+- 使用 Fast Fourier convolutions（FFC）為基礎的模型架構來提取全域感受野的資訊進行遮罩補全
