@@ -31,8 +31,8 @@
 	- ### Reinforcement Learning #[[Reinforcement Learning]]
 - Pretrain & Transfer Learning
 - ## Task
-	- ### Image
-	- ### Text
-	- ### Audio
+	- {{embed [[Image]]}}
+	- {{embed [[Text]]}}
+	- {{embed [[Audio]]}}
 - [[template]]
 -

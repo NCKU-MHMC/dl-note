@@ -1,0 +1,26 @@
+- ## Info
+	- tag: #DPM ((63899114-011f-4aa4-931b-939947a1cbfa))
+	- [DiffusER: Diffusion via Edit-based Reconstruction](https://openreview.net/forum?id=nG9RF9z1yy3)
+	- [source link]()
+	- [demo]()
+	- previous version: #[[SUMDAE]] #[[Levenshtein Transformer]]
+	- next version:
+- ## 摘要
+	- 現有的文本生成模型絕大多數都是使用 [[Autoregression]] 的方式從頭開始逐字生成。這雖然能提供良好的性能，但無法修改已存在的段落，這使得其難以通用在許多實際場景。
+	- 此篇論文提出了 DiffusER 這個基於編輯的離散擴散模型，不僅適用於通用生成任務，還能在如機器翻譯、摘要生成與文本風格轉換等任務中達到與 autoregressive models 媲美的效能。
+		- 並且，DiffusER 還能修改、潤飾不完整的輸入序列，這是標準 AR 難以處理的任務。
+- ## Background
+- ## DiffusER
+	- $$p_{\theta}(x_{t-1}|x_t)=p^{tag}_{\theta}(e_t|x_t)p^{gen}_{\theta}(x_{t-1}|x_t,e_t)$$
+		- $p^{tag}_{\theta}$ 用於估測給定 $x_t$ 時要執行的 Levenshtein edit operations $\{Insert, Delete, Replace, Keep\}$。
+		- $p^{gen}_{\theta}$ 則是依據 $x_t$ 與 $e_t$ 估測生成的序列。
+		- 通過拆分出 edit operations 使生成過程變得更加靈活可控，且與過去只能加入新元素的方法不同，基於 Levenshtein edit 的 DiffusER 能夠替換與刪除現有的元素。
+	- ### Edit Operations
+		- **Insert**：將新的文本加入序列中
+		- **Delete**：擦除現有序列
+		- **Replace**：將現有的文本改成新的內容
+		- **Keep**：保持部分的內容不會在此次迭代中被修改
+	- ### Edit-based Corruption
+		- 為了訓練 edit-based reconstruction，要對資料進行破壞。在論文中將破壞的操作表示為 $q(x_i|x_{i-1};\mathcal{E}_t,\mathcal{E}_l)$
+			- $\mathcal{E}_t$ 表示每種操作執行的機率分布，預設為 60% keep, 20% replace, 10% delete & 10% insert
+			- $\mathcal{E}_l$ 則為要編輯長度的機率分布，在論文中依據任務不同使用了不同期望值的 Possion distribution.

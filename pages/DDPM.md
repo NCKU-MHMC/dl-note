@@ -1,0 +1,12 @@
+- ## Info
+	- tag:
+	- [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239)
+	- [source link]()
+	- [demo]()
+	- previous version:
+	- next version:
+- ## Bayes' theorem
+	- $\begin{aligned}&P(A|B)=\cfrac{P(A)P(B|A)}{P(B)}\\&\to P(B)P(A|B)=P(A)P(B|A)\end{aligned}$
+	- $\begin{aligned}P(A|B,C)&=\cfrac{P(A)P(B|A)P(C|A,B)}{P(B)P(C|B)}\\&=\cfrac{P(B)P(A|B)P(C|A,B)}{P(B)P(C|B)}\\&=\cfrac{P(A|B)P(C|A,B)}{P(C|B)}\end{aligned}$
+- $\begin{aligned}q(x_{t-1}|x_t,x_0)&=P(A=x_{t-1}|C=x_t,B=x_0)\\&=\cfrac{P(A|B)P(C|A,B)}{P(C|B)}\\&=\cfrac{q(x_{t-1}|x_0)q(x_t|x_{t-1},x_0)}{q(x_t|x_0)}\end{aligned}$
+-

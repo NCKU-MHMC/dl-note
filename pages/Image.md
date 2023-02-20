@@ -1,0 +1,8 @@
+- [[Image Classification]]
+- [[Image Detection]]
+- Image Segmentation
+	- [[Semantic Segmentation]]
+	- [[Instance Segmentation]]
+	- [[Panoramic Segmentation]]
+- [[Image Generation]]
+- [[Image Style Transfer]]

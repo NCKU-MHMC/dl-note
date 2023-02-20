@@ -1,5 +1,5 @@
 - [DPM-Solver: A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps](https://arxiv.org/abs/2206.00927)
-- [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239)
+- [[DDPM]]
 - [[Score-Based Generative Modeling through Stochastic Differential Equations]]
 - [[Elucidating the Design Space of Diffusion-Based Generative Models]]
 - Diffusion Models/Score-based Models
@@ -9,10 +9,16 @@
 	- LATER [[DEIS]]
 	- LATER [[DPM-Solver]]
 	- LATER [[DPM-Solver++]]
-	-
 - Text Generation
 	- LATER [[Diffusion-LM]]
 	- LATER [[DiffuSeq]]
+	- LATER $^{\dagger}$[[DiffusER]]
 - 3D Shape Generation
 	- LATER [[LION]]
 	- LATER [[DreamFusion]]
+- Audio
+	- LATER [[AudioLDM: Text-to-Audio Generation with Latent Diffusion Models]]
+	- LATER [[ArchiSound: Audio Generation with Diffusion]]
+- Control
+	- LATER [[Plug-and-Play Diffusion Features for Text-Driven Image-to-Image Translation]]
+- $\dagger$ 代表該方法為 discrete diffusion model
