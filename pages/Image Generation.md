@@ -1,0 +1,2 @@
+- ## Adversarial Attack
+	- GLAZE: Protecting Artists from Style Mimicry by Text-to-Image Models

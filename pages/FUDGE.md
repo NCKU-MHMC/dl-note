@@ -1,0 +1,6 @@
+- ## Info
+	- tag:
+	- [FUDGE: Controlled Text Generation With Future Discriminators](https://aclanthology.org/2021.naacl-main.276/)
+	- source link: [official](https://github.com/yangkevin2/naacl-2021-fudge-controlled-generation)
+	- previous version:
+	- next version:

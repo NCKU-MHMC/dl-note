@@ -1,0 +1,7 @@
+- ## Info
+	- tag:
+	- [Plug and Play Language Models: A Simple Approach to Controlled Text Generation](https://openreview.net/forum?id=H1edEyBKDS)
+	- source link: [official](https://github.com/uber-research/PPLM)
+	- [demo](https://transformer.huggingface.co/model/pplm)
+	- previous version:
+	- next version:
