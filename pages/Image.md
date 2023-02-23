@@ -6,3 +6,4 @@
 	- [[Panoramic Segmentation]]
 - [[Image Generation]]
 - [[Image Style Transfer]]
+- [[Depth Estimation]]

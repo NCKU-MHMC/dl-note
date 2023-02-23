@@ -2,3 +2,7 @@
 - [[Text To Speech]]
 - [[Voice Conversion]]
 - [[Speech Enhancement]]
+- [[Speech Separation]]
+- [[Speech Recognition]]
+- [[Speaker Verification]]
+- [[Speaker Diarization]]
