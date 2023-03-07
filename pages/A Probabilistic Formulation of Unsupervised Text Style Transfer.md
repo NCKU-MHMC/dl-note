@@ -1,0 +1,8 @@
+- ## Info
+	- tag: #[[Text Style Transfer]]
+	- [A Probabilistic Formulation of Unsupervised Text Style Transfer](https://openreview.net/forum?id=HJlA0C4tPS)
+	- source link: [official](https://github.com/cindyxinyiwang/deep-latent-sequence-model)
+	- [demo]()
+	- previous version:
+	- next version:
+- ![image.png](../assets/image_1678167001516_0.png)
