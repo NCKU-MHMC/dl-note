@@ -218,7 +218,6 @@
  :feature/enable-journals? true
  :default-home {:page "DL Introduction"}
  :publishing/all-pages-public? true
- :feature/enable-whiteboards? true
 
  ;; Properties to exclude from having property pages
  ;; E.g. #{:duration :author}

@@ -1,0 +1,7 @@
+- ## Info
+	- tag:
+	- [Score-based Continuous-time Discrete Diffusion Models](https://openreview.net/forum?id=BYWWwSY2G5s)
+	- source link: [official]()
+	- [demo]()
+	- previous version:
+	- next version:

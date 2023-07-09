@@ -1,0 +1,7 @@
+- ## Info
+	- tag:
+	- [A Continuous Time Framework for Discrete Denoising Models](https://openreview.net/forum?id=DmT862YAieY)
+	- source link: [official]()
+	- [demo]()
+	- previous version:
+	- next version:

@@ -56,6 +56,7 @@
 	- > Self-Supervised Learning 大多都有非常多的 trick，在實作前一定要詳閱論文的說明與設定
 	- Momentum Encoder
 	- Projector & Predictor
+		- 為什麼要 projector: [Understanding and Improving the Role of Projection Head in Self-Supervised Learning](https://arxiv.org/abs/2212.11491)
 	- Batch Normalization
 	- Data Augmentation
 	- Memory Bank

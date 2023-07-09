@@ -1,0 +1,34 @@
+- 生成模型分成 GAN、VAE、Flow-based、AR 幾類
+	- GAN 具有優異的生成品質，然而其對抗訓練的方式導致其難以穩定收斂
+	- VAE 容易生成模糊的結果
+	- Flow-based 需要特別設計的架構
+	- AR 需要的採樣時間與生成的元素數量相當（O(N)）
+		- 難以改變已經生成的結構
+- 提出 Diffusion Model
+- $p(x)=\cfrac{e^{-f_{\theta}(x)}}{\int^{\infty}_{-\infty}e^{-f_{\theta}(x)}dx}=\cfrac{e^{-f_{\theta}(x)}}{Z_{\theta}}$，$Z_{\theta}$ 難以求出
+	- 變換公式 $\log p(x)=-f_{\theta}(x)-\log Z_{\theta}$
+	- 對其微分 $\nabla_x\log p(x)=-\nabla_x f_{\theta}(x)-\nabla_x\log Z_{\theta}=-\nabla_x f_{\theta}(x)$ 消去 $Z_{\theta}$
+- 生成任務的目標是讓模型逼近給定的資料集分佈 $\mathcal{X}$
+	- 期待使用訓練完成的模型進行採樣就能得到逼真的資料
+	- $\mathcal{X}_{\theta}\approx \mathcal{X}$
+- 在實際設計時，除了像 Autoregressive Model 定義容易估測的機率密度分布後直接逼近以外，絕大多數的方法會訓練模型 $f_{\theta}$ 將已知的簡單分布 $\mathcal{Z}$ 映射到複雜的真實資料分布 $\mathcal{X}$
+	- $\mathcal{X}_{\theta}= f_{\theta}(\mathcal{Z})\approx\mathcal{X}$
+	- 有像 VAE 與 Flow-based Model 直接學習映射函數 $f_{\theta}$ 的 explicit density model
+	- 也有像是 GAN 透過對抗學習來訓練的 Implicit density model
+- 然而，像 VAE、Flow-based Model 與 Autoregressive 等等 explicit density model 要不就是生成品質不佳，要不就是模型架構受限
+	- 而 GAN 這類 Implicit density model 雖然能生成高品質的結果，但由於對抗學習的訓練方式，容易出現收斂不穩與模式崩壞的問題
+- DPM 透過了一種完全不同的方式將 $\mathcal{Z}$ 與 $\mathcal{X}$ 串連，從而建構出一個訓練穩定、彈性架構且高品質的生成模型家族
+	- DPM 使用馬可夫鏈將 $\mathcal{Z}$ 與 $\mathcal{X}$ 串連，並建構由 $\mathcal{X}$ 到 $\mathcal{Z}$ 的 forward process $p(x_t|x_{t-1})$
+	- 且當
+		- $p(x_t|x_{t-1})$ 是高斯分布或是二項式分布
+			- e.g. $p(x_t|x_{t-1})=\mathcal{N}(\sqrt{1-\beta_t} x_{t-1},\beta_t \mathbf{I})$
+		- 以及 diffusion rate（variance）$\beta_t$ 夠小時
+	- 由 $\mathcal{Z}$ 到 $\mathcal{X}$ 的 backward process $p(x_{t-1}|x_t)$ 也會是同類型的分布
+	- 因此，DPM 就能使用多個高斯分布或是二項式分布來建構複雜的真實分布 $\mathcal{X}$
+		- 而整體目標也就從 p(x|z) 切換為 $p(x_{0..T})=p(x_0)\prod_{t=1}^T p(x_t|x_{t-1})=p(x_T)\prod_{t=1}^T p(x_{t-1}|x_t)$
+	- DPM 的設計概念可以總結為以下兩點
+		- 1. 使用馬可夫鏈將常態分布或是二項式分布 $\mathcal{Z}$ 與真實分布 $\mathcal{X}$ 串連。其中，朝向 $\mathcal{Z}$ 變化的過程被稱為 forward process/diffusion process
+		  2. 將 forward process/diffusion process 設計成能以常態分布或是二項式分布表示
+- 為了
+- $p(x_t|x_{t-1})=\mathcal{N}(\sqrt{1-\beta_t} x_{t-1},\beta_t \mathbf{I})$
+-

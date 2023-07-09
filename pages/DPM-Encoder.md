@@ -1,0 +1,7 @@
+- ## Info
+	- tag: #DPM
+	- [Unifying Diffusion Models' Latent Space, with Applications to CycleDiffusion and Guidance](https://openreview.net/forum?id=o2Udz4LZsL5)
+	- source link: [official](https://github.com/ChenWu98/cycle-diffusion)
+	- [demo](https://huggingface.co/spaces/ChenWu98/Stable-CycleDiffusion)
+	- previous version:
+	- next version:
