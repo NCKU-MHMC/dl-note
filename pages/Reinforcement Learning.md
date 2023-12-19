@@ -1,5 +1,7 @@
-- DQN
-- RainbowDQN
+- [如何选择深度强化学习算法？MuZero/SAC/PPO/TD3/DDPG/DQN/等（2021-04）](https://zhuanlan.zhihu.com/p/342919579)
+- ## DQN 系列
+	- https://www.freecodecamp.org/news/improvements-in-deep-q-learning-dueling-double-dqn-prioritized-experience-replay-and-fixed-58b130cc5682/
+	- RainbowDQN
 - A2C
 - A3C
 - TD3

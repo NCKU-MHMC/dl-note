@@ -1,3 +1,4 @@
+## [[LLM]]
 - ## Control Generation
 	- [[PPLM]]
 	- [[FUDGE]]

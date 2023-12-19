@@ -6,3 +6,5 @@
 - [[Speech Recognition]]
 - [[Speaker Verification]]
 - [[Speaker Diarization]]
+- [[Singing Voice Beautifying]]
+- [[Speech To Singing]]
