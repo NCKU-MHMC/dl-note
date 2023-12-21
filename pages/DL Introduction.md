@@ -34,6 +34,7 @@
 	- {{embed [[Image]]}}
 	- {{embed [[Text]]}}
 	- {{embed [[Audio]]}}
+	- {{embed [[3D Scene]]}}
 - ## Dataset
   collapsed:: true
 	- 3D 資料集

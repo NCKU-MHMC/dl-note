@@ -18,6 +18,10 @@
 	- LATER Uniform Neural Alignment
 	- LATER [ReMax: A Simple, Effective, and Efficient Reinforcement Learning Method for Aligning Large Language Models](https://github.com/liziniu/ReMax)
 	- LATER [The Unlocking Spell on Base LLMs: Rethinking Alignment via In-Context Learning](https://allenai.github.io/re-align/) #[[The Unlocking Spell on Base LLMs]]
+	- LATER LongLLMLingua: Accelerating and Enhancing LLMs in Long Context Scenarios via Prompt Compression
+	- ### Evaluation
+		- LATER PromptBench: A Unified Library for Evaluation of Large
+		  Language Models
 - ## Tools
 	- [guidance](https://github.com/guidance-ai/guidance)
 	- [langchain](https://python.langchain.com/docs/get_started)
