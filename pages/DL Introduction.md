@@ -111,6 +111,8 @@
 	- 影像
 		- ICCV
 		- CVPR
+	- 多媒體
+		- ICME (IEEE International Conference on Multimedia and Expo)
 	- 機器學習
 		- NIPS
 		- AAAI
