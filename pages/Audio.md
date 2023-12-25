@@ -8,3 +8,14 @@
 - [[Speaker Diarization]]
 - [[Singing Voice Beautifying]]
 - [[Speech To Singing]]
+- [[Speech Quality Metrics & Loss]]
+- [[Phase Reconstruction]]
+- ## Tools
+	- [Asteroid](https://asteroid-team.github.io/)
+	- [ESPnet](https://github.com/espnet/espnet)
+	- [SpeechBrain](https://speechbrain.github.io/index.html)
+	- [TorchAudio](https://pytorch.org/audio/stable/index.html)
+	- [DDSP: Differentiable Digital Signal Processing](https://github.com/magenta/ddsp)
+	- [audio-diffusion-pytorch](https://github.com/archinetai/audio-diffusion-pytorch) #DPM
+	- [AudioCraft](https://github.com/facebookresearch/audiocraft)
+	- [S3PRL](https://github.com/s3prl/s3prl)
