@@ -1,0 +1,13 @@
+- https://toonnyy8-notes.github.io/SpeechLMScore/
+- ## Info
+	- [paper link](https://ieeexplore.ieee.org/abstract/document/10095710)
+	- source link: UNK
+	- previous version:
+	- next version:
+- ## Introduction
+	- 在評估語音生成與語音增強任務的好壞時，人類主觀評測是非常重要的一向衡量基準。然而要進行主觀評測所耗費的時間與人力成本非常昂貴，因此會選用一些客觀評測指標來取代主觀評測。
+	- 但是客觀評測雖然方便快速，可其與主觀評測的相關性並沒有非常高。為了能真正取代主觀評測，近期許多方法透過收集語音以及對應的 MOS 分數來進行監督式學習 #Supervised 訓練模型估計 MOS 分數。
+		- 缺陷：由於具有 MOS 分數的語音資料數量稀缺，導致訓練出來的估測模型泛化能力低落。
+	- 本研究改成使用 [[Unsupervised]] 方式進行訓練，擺脫缺乏 MOS 分數標記的問題
+		- 參考 [[Text Generation]] 任務中的 PPL，訓練 Autoregressive Speech LM 對 HuBERT 這類語音離散單元建模。
+		- 當評估語音在 SpeechLM 取得的機率越高，代表該語音越接近訓練資料的分佈。
