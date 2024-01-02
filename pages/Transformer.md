@@ -13,6 +13,7 @@
 		  **我，不想延畢 == 不，我想延畢**...？
 			- 在沒有外加資訊的情況下
 			  Multi-Head Attention 無法判斷不同位置有什麼不一樣
+		- 延伸：[[Length Extrapolatable]]
 - ## 應用於 Machine Translation
 	- 1. Encoder 輸入來源語言的句子，並轉換成特徵 $m$
 	- 2. 將翻譯目標語句與 start token 串聯作為 Decoder 的輸入
@@ -23,3 +24,5 @@
 - ## 補充
 	- https://www.tensorflow.org/text/tutorials/transformer
 	- [[Efficient Transformers]]
+	- LATER [Stabilizing Transformer Training by Preventing Attention Entropy Collapse](https://proceedings.mlr.press/v202/zhai23a.html)
+		- 讓 Transformer 穩定訓練的方法
