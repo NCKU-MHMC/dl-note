@@ -35,8 +35,8 @@
 	- {{embed [[Text]]}}
 	- {{embed [[Audio]]}}
 	- {{embed [[3D Scene]]}}
+	  collapsed:: true
 - ## Dataset
-  collapsed:: true
 	- 3D 資料集
 		- 人體姿態捕捉
 			- https://dna-rendering.github.io/
@@ -45,12 +45,16 @@
 		- https://casual-effects.com/data/
 		-
 	- 文字
+	  id:: fd8029e1-87e4-4a79-aadb-afc4392421f9
 		- PG-19
 		- New The Pile
 		- RedPajama-Data-1T
 		- RedPajama-Data-1B
 		- https://huggingface.co/datasets/cerebras/SlimPajama-627B
 		- https://huggingface.co/datasets/tiiuae/falcon-refinedweb
+		- [TMMLU+](https://huggingface.co/datasets/ikala/tmmluplus): 繁體中文的語言模型新基準資料集
+		  [https://blog.infuseai.io/tmmluplus-dataset-brief-introduction-ecfd00297838](https://blog.infuseai.io/tmmluplus-dataset-brief-introduction-ecfd00297838)
+		- [MathPile](https://gair-nlp.github.io/MathPile/)
 	- 語音
 		- [LibriSpeech](https://www.openslr.org/12)
 			- 982h; 16kHz; 2,484 spk;
