@@ -4,6 +4,9 @@
 	- Mistral-7B
 	- [Yi-34B](https://huggingface.co/01-ai/Yi-34B), [Yi-6B](https://huggingface.co/01-ai/Yi-6B)
 	- [Anima](https://github.com/lyogavin/Anima/)
+	- [TinyLlama-1.1B-Chat-v1.0](https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0)
+- ## 基本知識
+	- [[In-Context Learning]]
 - ## 文章
 	- https://medium.com/@joaolages/kv-caching-explained-276520203249
 	- https://bbycroft.net/llm
@@ -28,3 +31,11 @@
 	- [vLLM](https://vllm.readthedocs.io/en/latest/index.html#)
 	- [Semantic Kernel](https://github.com/microsoft/semantic-kernel)
 	- [outlines](https://github.com/outlines-dev/outlines)
+	- [detect-pretrain-code-contamination](https://github.com/swj0419/detect-pretrain-code-contamination)
+		- LLM 在訓練過程中有可能使用到測試基準的訓練資料導致污染，為了避免研究受到影響，可以使用污染檢測工具先確定 LLM 是否有被污染。
+	- [tricksy](https://github.com/austinsilveria/tricksy)
+	  Fast approximate inference on a single GPU with sparsity aware offloading
+		- ~15x faster than naive offloading
+		- ~7x faster than partial dense offloading with same GPU memory usage
+		- 58% of model size in GPU memory
+	- [PowerInfer](https://github.com/SJTU-IPADS/PowerInfer) 混和 GPU 與 CPU 的快速推理框架
