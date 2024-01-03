@@ -1,4 +1,5 @@
 - [如何选择深度强化学习算法？MuZero/SAC/PPO/TD3/DDPG/DQN/等（2021-04）](https://zhuanlan.zhihu.com/p/342919579)
+- [白话强化学习](https://www.zhihu.com/column/c_1215667894253830144)
 - ## DQN 系列
 	- https://www.freecodecamp.org/news/improvements-in-deep-q-learning-dueling-double-dqn-prioritized-experience-replay-and-fixed-58b130cc5682/
 	- RainbowDQN
