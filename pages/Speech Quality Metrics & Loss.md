@@ -2,7 +2,7 @@
 - https://github.com/inconnu11/Objective-evaluation_speech_synthesis
 - ## Reference Free
 	- LATER TorchAudio-Squim: Reference-less Speech Quality and Intelligibility measures in TorchAudio
-	- LATER MOSNet: Deep Learning based Objective Assessment for Voice Conversion
+	- LATER [[MOSNet: Deep Learning based Objective Assessment for Voice Conversion]]
 	- LATER [[SpeechLMScore: Evaluating Speech Generation Using Speech Language Model]]
 - ## Tools
 	- [speechmetrics](https://github.com/aliutkus/speechmetrics)
