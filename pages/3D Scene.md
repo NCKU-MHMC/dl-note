@@ -1,4 +1,5 @@
 ## [[NeRF]]
+- ## [[Gaussian Splatting]]
 - LATER ViewFormer: NeRF-free Neural Rendering from Few Images Using Transformers
 - LATER Diffusion-SDF: Text-to-Shape via Voxelized Diffusion
 - LATER DreamCraft3D: Hierarchical 3D Generation with Bootstrapped Diffusion Prior
