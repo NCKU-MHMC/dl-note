@@ -2,7 +2,7 @@
 	- LLaMa
 	- https://www.cerebras.net/blog/btlm-3b-8k-7b-performance-in-a-3-billion-parameter-model/
 	- Mistral-7B
-	- [Yi-34B](https://huggingface.co/01-ai/Yi-34B), [Yi-6B](https://huggingface.co/01-ai/Yi-6B)
+	- [Yi-34B](https://huggingface.co/01-ai/Yi-34B), [Yi-6B](https://huggingface.co/01-ai/Yi-6B), Yi-VL-[6B](https://huggingface.co/01-ai/Yi-VL-6B)/[34B](https://huggingface.co/01-ai/Yi-VL-34B)
 	- [Anima](https://github.com/lyogavin/Anima/)
 	- [TinyLlama-1.1B-Chat-v1.0](https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0)
 - ## 基本知識
@@ -21,10 +21,19 @@
 	- LATER Uniform Neural Alignment
 	- LATER [ReMax: A Simple, Effective, and Efficient Reinforcement Learning Method for Aligning Large Language Models](https://github.com/liziniu/ReMax)
 	- LATER [The Unlocking Spell on Base LLMs: Rethinking Alignment via In-Context Learning](https://allenai.github.io/re-align/) #[[The Unlocking Spell on Base LLMs]]
-	- LATER LongLLMLingua: Accelerating and Enhancing LLMs in Long Context Scenarios via Prompt Compression
+	- LATER [LongLLMLingua: Accelerating and Enhancing LLMs in Long Context Scenarios via Prompt Compression](https://openreview.net/forum?id=8dkp41et6U)
+	- LATER [Introducing ASPIRE for selective prediction in LLMs](https://blog.research.google/2024/01/introducing-aspire-for-selective.html): 使用兩階段訓練 LLM 對生成的回應做可性度評估來減少幻覺。 by. Google
+	- LATER [Self-Rewarding Language Models](https://arxiv.org/abs/2401.10020): 在使用 DPO 微調微調 LLM 的期間也使用 LLM 自身來產出 reward，研究結果發現提出的方法讓 Llama 2 70B 的性能到達能與 GPT-4 競爭的水平。by. Meta
+	- LATER [Excuse me, sir? Your language model is leaking (information)](https://arxiv.org/abs/2401.10360) NLG 中的浮水印
+	- LATER [Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training](https://arxiv.org/abs/2401.05566) 幻覺研究
+	- LATER [Who's Harry Potter? Approximate Unlearning in LLMs](https://arxiv.org/abs/2310.02238) 將指定知識從模型中移除
+	- ### 加速
+		- LATER [Accelerating Large Language Model Decoding with Speculative Sampling](https://arxiv.org/abs/2302.01318)
+		- LATER [Blockwise Parallel Decoding for Deep Autoregressive Models](https://arxiv.org/abs/1811.03115)
+		- LATER [Fast Inference from Transformers via Speculative Decoding](https://arxiv.org/abs/2211.17192)
+		- https://x.com/karpathy/status/1697318534555336961?s=20
 	- ### Evaluation
-		- LATER PromptBench: A Unified Library for Evaluation of Large
-		  Language Models
+		- LATER [PromptBench: A Unified Library for Evaluation of Large Language Models](https://github.com/microsoft/promptbench)
 - ## Tools
 	- [guidance](https://github.com/guidance-ai/guidance)
 	- [langchain](https://python.langchain.com/docs/get_started)
@@ -39,3 +48,9 @@
 		- ~7x faster than partial dense offloading with same GPU memory usage
 		- 58% of model size in GPU memory
 	- [PowerInfer](https://github.com/SJTU-IPADS/PowerInfer) 混和 GPU 與 CPU 的快速推理框架
+	- [mixtral-offloading](https://github.com/dvmazur/mixtral-offloading/) 讓 Mixtral-MoE 在消費集顯卡上高效推理的框架
+	  附註：根據 mixtral-offloading 的技術報告顯示 [QMoE](https://arxiv.org/abs/2310.16795) 的效果在 Mixtral-MoE 上表現並不好，因此不推薦使用 QMoE 作為新 MoE 模型的量化方法。附上 [llama.cpp](https://github.com/ggerganov/llama.cpp/issues/4445) 的討論
+	- 使用模板、狀態機或正規表達式等方法更有效的控制 LLM 的生成結果
+	- [detect-pretrain-code-contamination](https://github.com/swj0419/detect-pretrain-code-contamination)
+		- LLM 在訓練過程中有可能使用到測試基準的訓練資料導致污染，為了避免研究受到影響，可以使用污染檢測工具先確定 LLM 是否有被污染。
+	- [PromptBench: A Unified Library for Evaluation of Large Language Models](https://github.com/microsoft/promptbench)

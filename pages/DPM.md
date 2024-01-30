@@ -30,6 +30,8 @@
 	- LATER [[ArchiSound: Audio Generation with Diffusion]]
 - Video
 	- LATER [[VideoFusion]]
+	- LATER [VideoCrafter1: Open Diffusion Models for High-Quality Video Generation](https://github.com/ailab-cvc/videocrafter)
+	- LATER [LUMIERE: A Space-Time Diffusion Model for Video Generation](https://lumiere-video.github.io/)
 - Control
 	- LATER [[Plug-and-Play Diffusion Features for Text-Driven Image-to-Image Translation]]
 - Style Transfer
@@ -40,4 +42,13 @@
 - $^\dagger$Discrete
 	- LATER [[A Continuous Time Framework for Discrete Denoising Models]]
 	- LATER [[Score-based Continuous-time Discrete Diffusion Models]]
+- Human Feedback Fine-tune
+	- LATER [DPOK: Reinforcement Learning for Fine-tuning Text-to-Image Diffusion Models](https://github.com/google-research/google-research/tree/master/dpok)
+- 加速
+	- LATER [LCM-LoRA: A Universal Stable-Diffusion Acceleration Module](https://github.com/luosiallen/latent-consistency-model)
+	- LATER [DeepCache: Accelerating Diffusion Models for Free](https://horseee.github.io/Diffusion_DeepCache/)
+	- LATER [CM-GAN: Image Inpainting with Cascaded Modulation GAN and Object-Aware Training](https://github.com/htzheng/CM-GAN-Inpainting)
+	- LATER Consistency Models
+	- LATER [Fast ODE-based Sampling for Diffusion Models in Around 5 Steps](https://arxiv.org/abs/2312.00094)
+	- LATER [Consistency Trajectory Models: Learning Probability Flow ODE Trajectory of Diffusion](https://consistencytrajectorymodel.github.io/CTM/)
 - $\dagger$ 代表該方法為 discrete diffusion model
