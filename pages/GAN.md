@@ -1,4 +1,4 @@
-- ## 標準 GAN
+## 標準 GAN
 	- Generator $G$ 使用從常態分佈取樣的 latent vector $z$ 作為輸入，並期望能生成出逼近真實資料的輸出
 		- 然而在訓練資料中並沒有將 $z$ 與真實資料配對，
 		  導致無法使用 Supervised Learning 的方式訓練 Generator
@@ -25,6 +25,7 @@
 		- 上述缺陷在後來的 WGAN、CTGAN、SN-GAN、Boundary Equilibrium GAN 等等方法上得到改善
 - DCGAN
 - ## WGAN
+  collapsed:: true
 	- 將 Discriminator 改成 Critic（即移除 Sigmoid 的 Discriminator）
 		- 用無上下限的分數來評估樣本真實度
 		- 使用 clipping 限制 Critic 的參數大小，以保證數學前提
@@ -36,9 +37,12 @@
 	- ### WGAN-GP
 		- 改使用 gradient penalty loss 限制 Critic 回傳的梯度大小，解決了 clipping 的問題
 	- ### WGAN-div
+- SNGAN
+- BEGAN
 - Controllable
 	- conditional GAN：需要類別標籤
 	- InfoGAN
-- PGGAN：從小→→大漸進式堆疊網路並訓練，以加快訓練速度與穩定性。
+- PGGAN：從小→大漸進式堆疊網路並訓練，以加快訓練速度與穩定性。
 - SeqGAN：將 GAN 應用於序列生成上。
 - VQGAN：結合 Transformer 與 VQVAE 的 GAN，能產生高解析度的輸出。
+- Projected GANs
