@@ -1,5 +1,8 @@
 - LATER Dynamic-SUPERB: Towards A Dynamic, Collaborative, and Comprehensive Instruction-Tuning Benchmark for Speech
 - https://github.com/inconnu11/Objective-evaluation_speech_synthesis
+- [語音主觀與客觀評價總結與實現](https://www.cnblogs.com/LXP-Never/p/11071911.html#blogTitle5)
+- ## Reference Based
+	- LATER [SDR - half-baked or well done?](https://arxiv.org/abs/1811.02508)
 - ## Reference Free
 	- LATER TorchAudio-Squim: Reference-less Speech Quality and Intelligibility measures in TorchAudio
 	- LATER [[MOSNet: Deep Learning based Objective Assessment for Voice Conversion]]
