@@ -1,0 +1,30 @@
+## Models
+	- LLaMa
+	- https://www.cerebras.net/blog/btlm-3b-8k-7b-performance-in-a-3-billion-parameter-model/
+	- Mistral-7B
+	- [Yi-34B](https://huggingface.co/01-ai/Yi-34B), [Yi-6B](https://huggingface.co/01-ai/Yi-6B)
+	- [Anima](https://github.com/lyogavin/Anima/)
+- ## 文章
+	- https://medium.com/@joaolages/kv-caching-explained-276520203249
+	- https://bbycroft.net/llm
+	- https://github.com/AIoT-MLSys-Lab/Efficient-LLMs-Survey?tab=readme-ov-file#Algorithm-Level-MoE-Optimization
+	- https://intro-llm.github.io/
+	- https://blog.mg3.xyz/20231216_una-cybertron-7b-v2_analysis/
+- ## Papers
+	- LATER [Hyena Hierarchy: Towards Larger Convolutional Language Models](https://arxiv.org/abs/2302.10866) #[[Hyena Hierarchy]] #[[Long-Term Memory]]
+	- LATER [MemGPT Towards LLMs as Operating Systems](https://memgpt.ai/) #[[Long-Term Memory]] #MemGPT
+	- LATER [Lumos: Learning Agents with Unified Data, Modular Design, and Open-Source LLMs](https://arxiv.org/abs/2311.05657v1)
+	- LATER [Direct Preference Optimization: Your Language Model is Secretly a Reward Model](https://icml.cc/virtual/2023/29063)
+	- LATER Uniform Neural Alignment
+	- LATER [ReMax: A Simple, Effective, and Efficient Reinforcement Learning Method for Aligning Large Language Models](https://github.com/liziniu/ReMax)
+	- LATER [The Unlocking Spell on Base LLMs: Rethinking Alignment via In-Context Learning](https://allenai.github.io/re-align/) #[[The Unlocking Spell on Base LLMs]]
+	- LATER LongLLMLingua: Accelerating and Enhancing LLMs in Long Context Scenarios via Prompt Compression
+	- ### Evaluation
+		- LATER PromptBench: A Unified Library for Evaluation of Large
+		  Language Models
+- ## Tools
+	- [guidance](https://github.com/guidance-ai/guidance)
+	- [langchain](https://python.langchain.com/docs/get_started)
+	- [vLLM](https://vllm.readthedocs.io/en/latest/index.html#)
+	- [Semantic Kernel](https://github.com/microsoft/semantic-kernel)
+	- [outlines](https://github.com/outlines-dev/outlines)

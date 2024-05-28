@@ -1,0 +1,38 @@
+- ## Non-linear #[[Non-linear]]
+	- Deep Learning 的模型需要將非線性函數（激活函數, activation function）穿插在線性運算（e.g. Linear Layer, Convolutional layer）之間，建構的模型才能解決非線性問題
+- ## Deeper or Wider
+	- ### Deeper
+		- 在 [[AI&ML&DL]] 提到了 $f_{\phi}$ 是由數層的 Neural Network 所建構
+			- 在每層逐步提取不同的 feature vector，可以學習不同層次的抽象特徵，能使其具有更佳的泛化能力
+			  id:: 62ee231a-a676-43d6-8a43-55a1820c9e11
+	- ### Wider
+		- 理論上只要有 **足夠** 的資料，便可以靠 **非常寬**、只有一層隱藏層的 [[Multilayer Perceptron]] (MLP) 擬合任何的函數
+			- 然而 wide neural network 的泛化能力低落，只是將資料記憶在網路中而已
+			- 需要 **非常大量** 的資料與參數才能讓 wide neural network 擁有與 deep neural network 相等的能力
+	- 相關研究可參考
+		- [Why Deep Neural Networks for Function Approximation?](https://arxiv.org/abs/1610.04161)
+		- [Universal approximation theorem](https://en.m.wikipedia.org/wiki/Universal_approximation_theorem)
+- ## 訓練流程
+	- ![training-process.png](../assets/training-process.png){width 500}
+	- ### Forward #Architectures
+	- ### Loss #Loss
+	- ### Backward #Backward
+	- ### Optimize #Optimization
+- ## ML/DL 三大方法
+	- ### Supervised Learning #Supervised
+		- 具有人工標記的 label
+		- #### 衍生 [[Semi-Supervised]]
+			- 使用人工標記與機器標記兩種資料進行訓練
+	- ### Unsupervised Learning #Unsupervised
+		- 缺乏人工標記的 label
+		- 生成模型、分群（Clustering）等任務皆使用 Unsupervised Learning 的方式訓練
+		- #### 衍出 [[Self-Supervised]]
+			- 使用未標記資料訓練高泛化能力的 Pre-trained Feature Extraction
+	- ### Reinforcement Learning #[[Reinforcement Learning]]
+- Pretrain & Transfer Learning
+- ## Task
+	- {{embed [[Image]]}}
+	- {{embed [[Text]]}}
+	- {{embed [[Audio]]}}
+- [[template]]
+-

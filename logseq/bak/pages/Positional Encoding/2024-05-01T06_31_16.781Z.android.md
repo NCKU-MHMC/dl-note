@@ -1,0 +1,11 @@
+- 並非所有的模型架構都如同 [[CNN]]、[[RNN]] 一樣原生就具備捕捉位置資訊的能力，
+  然而在許多任務中，不同的位置關係會大大影響輸入代表的含義。
+	- 通過在輸入顯示加上位置編碼，讓不同的模型都能正確的理解輸入的資訊。
+- [Position Information in Transformers: An Overview](https://arxiv.org/abs/2102.11090)
+	- Survey
+- [Attention is all you need](https://papers.nips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html), NIPS, 2017
+	- $PE[pos,i]=\begin{cases}sin(\cfrac{pos}{10000^{i/d}})&i~\text{is even}\\cos(\cfrac{pos}{10000^{(i-1)/d}})&i~\text{is odd}\end{cases}$
+- [Fourier Features Let Networks Learn High Frequency Functions in Low Dimensional Domains](https://bmild.github.io/fourfeat/index.html), NIPS, 2020
+- [Encoding word order in complex embeddings](https://arxiv.org/abs/1912.12333), ICLR, 2020
+- [Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context](https://arxiv.org/abs/1901.02860?mod=article_inline), ACL, 2019
+	- Relative Positional Encoder

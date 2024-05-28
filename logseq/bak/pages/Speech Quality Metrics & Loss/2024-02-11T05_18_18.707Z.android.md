@@ -1,0 +1,11 @@
+- LATER Dynamic-SUPERB: Towards A Dynamic, Collaborative, and Comprehensive Instruction-Tuning Benchmark for Speech
+- https://github.com/inconnu11/Objective-evaluation_speech_synthesis
+- ## Reference Free
+	- LATER TorchAudio-Squim: Reference-less Speech Quality and Intelligibility measures in TorchAudio
+	- LATER MOSNet: Deep Learning based Objective Assessment for Voice Conversion
+	- LATER [[SpeechLMScore: Evaluating Speech Generation Using Speech Language Model]]
+- ## Tools
+	- [speechmetrics](https://github.com/aliutkus/speechmetrics)
+	- [auraloss](https://github.com/csteinmetz1/auraloss)
+	- [Audio Generation Evaluation](https://github.com/haoheliu/audioldm_eval)
+	- [pysepm](https://github.com/schmiph2/pysepm)

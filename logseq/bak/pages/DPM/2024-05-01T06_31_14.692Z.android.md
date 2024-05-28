@@ -1,0 +1,43 @@
+- [[DPM 介紹]]
+- [What are Diffusion Models?](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/)
+  id:: 641425e0-525c-440f-8a7b-a951fcebd8ba
+- [Awesome-Diffusion-Models](https://github.com/heejkoo/Awesome-Diffusion-Models), github
+- https://yang-song.net/blog/2021/score/
+- https://scorebasedgenerativemodeling.github.io/
+	- 用來搜尋 DPM 相關的最新研究
+- [DPM-Solver: A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps](https://arxiv.org/abs/2206.00927)
+- [[DDPM]]
+- [[Score-Based Generative Modeling through Stochastic Differential Equations]]
+- [[Elucidating the Design Space of Diffusion-Based Generative Models]]
+- [[Diffusion Probabilistic Fields]]
+- Diffusion Models/Score-based Models
+- Fast Sample
+  id:: 63846cb4-2ff9-4d0b-9d09-a83cb00c3167
+	- LATER [[DDIM]]
+	- LATER [[DEIS]]
+	- LATER [[DPM-Solver]]
+	- LATER [[DPM-Solver++]]
+	- LATER [[UniPC]]
+- Text Generation
+	- LATER [[Diffusion-LM]]
+	- LATER [[DiffuSeq]]
+	- LATER $^{\dagger}$[[DiffusER]]
+- 3D Shape Generation
+	- LATER [[LION]]
+	- LATER [[DreamFusion]]
+- Audio
+	- LATER [[AudioLDM: Text-to-Audio Generation with Latent Diffusion Models]]
+	- LATER [[ArchiSound: Audio Generation with Diffusion]]
+- Video
+	- LATER [[VideoFusion]]
+- Control
+	- LATER [[Plug-and-Play Diffusion Features for Text-Driven Image-to-Image Translation]]
+- Style Transfer
+	- LATER [[DiffAE]]
+	- LATER [[DPM-Encoder]]
+	- LATER [[DDIB]]
+	- LATER [[UNIT-DDPM]]
+- $^\dagger$Discrete
+	- LATER [[A Continuous Time Framework for Discrete Denoising Models]]
+	- LATER [[Score-based Continuous-time Discrete Diffusion Models]]
+- $\dagger$ 代表該方法為 discrete diffusion model
